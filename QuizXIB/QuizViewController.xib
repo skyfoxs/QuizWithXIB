@@ -15,7 +15,7 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fow-oI-EU1">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fow-oI-EU1">
                     <rect key="frame" x="8" y="29" width="584" height="21"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="21" id="bZh-Jd-YiI"/>
@@ -28,13 +28,31 @@
                     <rect key="frame" x="248" y="58" width="104" height="30"/>
                     <state key="normal" title="Show Question"/>
                 </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hO6-Gr-HWF">
+                    <rect key="frame" x="8" y="141" width="584" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="RKq-Hl-MR1"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fcm-vb-T4Q">
+                    <rect key="frame" x="254" y="170" width="93" height="30"/>
+                    <state key="normal" title="Show Answer"/>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstItem="GjF-Fp-Rp3" firstAttribute="top" secondItem="Fow-oI-EU1" secondAttribute="bottom" constant="8" id="1im-oO-fwe"/>
                 <constraint firstItem="Fow-oI-EU1" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="29" id="4HP-0g-4X4"/>
                 <constraint firstAttribute="trailing" secondItem="Fow-oI-EU1" secondAttribute="trailing" constant="8" id="Kda-b3-mfu"/>
+                <constraint firstItem="hO6-Gr-HWF" firstAttribute="top" secondItem="GjF-Fp-Rp3" secondAttribute="bottom" constant="53" id="PEQ-pC-kon"/>
                 <constraint firstItem="Fow-oI-EU1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="UnL-a3-mqh"/>
+                <constraint firstItem="hO6-Gr-HWF" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="bW0-aP-NSk"/>
+                <constraint firstAttribute="trailing" secondItem="hO6-Gr-HWF" secondAttribute="trailing" constant="8" id="fdy-4S-gu3"/>
+                <constraint firstItem="fcm-vb-T4Q" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="jfI-iP-2EC"/>
+                <constraint firstItem="fcm-vb-T4Q" firstAttribute="top" secondItem="hO6-Gr-HWF" secondAttribute="bottom" constant="8" id="u30-jt-mnv"/>
                 <constraint firstItem="GjF-Fp-Rp3" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="wPm-9r-5CQ"/>
             </constraints>
             <point key="canvasLocation" x="250" y="332"/>
