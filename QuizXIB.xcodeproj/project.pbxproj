@@ -13,6 +13,8 @@
 		D83556101D6D9E700048363A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D835560E1D6D9E700048363A /* Main.storyboard */; };
 		D83556121D6D9E700048363A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D83556111D6D9E700048363A /* Assets.xcassets */; };
 		D83556151D6D9E700048363A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83556131D6D9E700048363A /* LaunchScreen.storyboard */; };
+		D835561F1D6D9F6E0048363A /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D835561D1D6D9F6E0048363A /* QuizViewController.m */; };
+		D83556201D6D9F6E0048363A /* QuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D835561E1D6D9F6E0048363A /* QuizViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		D83556111D6D9E700048363A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D83556141D6D9E700048363A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D83556161D6D9E700048363A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D835561C1D6D9F6E0048363A /* QuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
+		D835561D1D6D9F6E0048363A /* QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
+		D835561E1D6D9F6E0048363A /* QuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +72,9 @@
 				D83556131D6D9E700048363A /* LaunchScreen.storyboard */,
 				D83556161D6D9E700048363A /* Info.plist */,
 				D83556051D6D9E700048363A /* Supporting Files */,
+				D835561C1D6D9F6E0048363A /* QuizViewController.h */,
+				D835561D1D6D9F6E0048363A /* QuizViewController.m */,
+				D835561E1D6D9F6E0048363A /* QuizViewController.xib */,
 			);
 			path = QuizXIB;
 			sourceTree = "<group>";
@@ -140,6 +148,7 @@
 				D83556151D6D9E700048363A /* LaunchScreen.storyboard in Resources */,
 				D83556121D6D9E700048363A /* Assets.xcassets in Resources */,
 				D83556101D6D9E700048363A /* Main.storyboard in Resources */,
+				D83556201D6D9F6E0048363A /* QuizViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +162,7 @@
 				D835560D1D6D9E700048363A /* ViewController.m in Sources */,
 				D835560A1D6D9E700048363A /* AppDelegate.m in Sources */,
 				D83556071D6D9E700048363A /* main.m in Sources */,
+				D835561F1D6D9F6E0048363A /* QuizViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
