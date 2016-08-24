@@ -10,13 +10,24 @@
 
 @interface QuizViewController ()
 
+@property (nonatomic, weak) IBOutlet UILabel *questionLabel;
+@property (nonatomic, weak) IBOutlet UILabel *answerLabel;
+
+@property (nonatomic) int index;
+
+@property (nonatomic, copy) NSArray *questions;
+@property (nonatomic, copy) NSArray *answers;
+
 @end
 
 @implementation QuizViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+
+    self.questions = @[@"What is 7+7?", @"Capital of Thailand"];
+    self.answers = @[@"14", @"Bangkok"];
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,6 +35,18 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)showQuestion: (UIButton *)sender {
+    self.index += 1;
+    if (self.index == [self.questions count]) {
+        self.index = 0;
+    }
+    self.questionLabel.text = self.questions[self.index];
+    self.answerLabel.text = @"???";
+}
+
+- (IBAction)showAnswer: (UIButton *)sender {
+    self.answerLabel.text = self.answers[self.index];
+}
 /*
 #pragma mark - Navigation
 
